@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum EnumLearn.gender",
+						"name": "_gender",
+						"type": "uint8"
+					}
+				],
+				"name": "getKidGender",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enum.sol": "EnumLearn"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enum.sol": {
+			"keccak256": "0x007c883806691440fbea7909e1a3f05d1328b4bdc9881f8148f424f4acadad2f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e872c6b3e43916d3bd1b904050d62ba3360286f622d742940d8e21ebcf66de9",
+				"dweb:/ipfs/QmNhXxBdCMLF5V4ECLx6RsoUPByzHxMn6zK3woAmyFnk2k"
+			]
+		}
+	},
+	"version": 1
+}
